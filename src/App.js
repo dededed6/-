@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import './componets/kakaomap';
+import Kakao from './componets/kakaomap';
 
-function App() {
+//https://goddaehee.tistory.com/305
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <div>
+          내비
+        </div>
+      </nav>
+      <Kakao></Kakao>
     </div>
   );
 }

@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.navi {
+  background-color: black;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  padding: 2%;
+}

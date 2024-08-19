@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="App">
       <nav>
-        <div>
+        <div className="navi">
           내비
         </div>
       </nav>
